@@ -1,0 +1,31 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*reset*/
+/*typography*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*typography*/
+/*header*/
+header{
+    height: 4.375rem;
+}
+.logo{
+    width: 4.375rem;
+}
+.seach-btn-bg{
+    background-color: #e5e5e5 !important;
+}
+/*header*/
+img{
+    width: 100%;
+}
+@media  screen and (min-width:992px){
+    .logo{
+        width: 9.375rem;
+    }
+}
