@@ -59,45 +59,93 @@
         </div>
     </header>
     <div class="main-section d-flex">
-        <div class="nav-l p-2 text-white d-flex ">
-            <div>
-                <div class="sezione d-flex py-2 px-4 ">
-                    <div>
+        <div class="nav-l p-2 text-white ">
+            <ul class="p-0 h-100 d-flex flex-column">
+                <li class="sezione d-flex py-2 px-4 ">
+                    <a class="d-flex align-items-center" href="">
                         <i class="fa-solid fa-house" style="color: #ffffff;"></i>
-                    </div>
-                    <div class="ps-2 d-none d-lg-block ">
-                        Home
-                    </div>
-                </div>
-                <div class="sezione d-flex py-2 px-4">
-                    <div>
+                         <div class="ps-2 d-none d-lg-block ">Home</div>
+                    </a>
+                </li>
+                <li class="sezione d-flex py-2 px-4">
+                    <a class="d-flex align-items-center" href="">
                         <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i>
-                    </div>
-                    <div class="ps-3 d-none d-lg-block ">
-                        Stats
-                    </div>
-                </div>
-                <div class="sezione d-flex px-4">
-                    <div>
+                        <div class="ps-3 d-none d-lg-block ">
+                            Stats
+                        </div>
+                    </a>            
+                </li>
+                <li class="sezione d-flex py-2 px-4">
+                    <a class="d-flex align-items-center" href="">
                         <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
-                    </div>
-                    <div class="ps-2 d-none d-lg-block ">
-                        Signals
-                    </div>
-                </div>
-            </div>
-            <div class="sezione d-flex px-4 py-3 ">
-                <div>
+                        <div class="ps-2 d-none d-lg-block ">
+                            Signals
+                        </div>
+                    </a>
+                </li>
+                <li class="sezione d-flex px-4 py-2 mt-auto ">
+                    <a class="d-flex align-items-center" href="">
                     <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
-                </div>
-                <div class="ps-2 d-none d-lg-block ">
-                    Admin
-                </div>
-            </div>
+                    <div class="ps-2 d-none d-lg-block ">
+                        Admin
+                    </div>
+                    </a> 
+                </li>
+            </ul>
         </div>
-        <main class="flex-grow-1">
-            <div class="main-nav">
-                s
+        <main class="flex-grow-1 overflow-y">
+            <div class="jumbo pt-3 text-white p-2 ">
+                <div class="row m-0">
+                    <div class="col-12 col-md-3 col-lg-3 px-2 pb-3 pt-1 order-md-last">
+                                            Nuovo Studente 
+                                            <button class="btn p-0 ms-1 border " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                                <i class="fa-solid fa-plus fa-xs py-1 px-2" style="color: #ffffff;"></i>
+                                            </button>
+                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                                <div class="offcanvas-header">
+                                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                                                        </button>
+                                                </div>
+                                                <div class="offcanvas-body">
+
+                                                </div>
+                                            </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-6 pb-3 px-2">
+                        <div class="d-flex align-items-center">
+                            <h2>Boolean</h2>
+                            <div class="fm-tags ms-2">Piano Blaze</div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="fm-tags">
+                                3 apps
+                            </div>
+                            <div class="mx-1">
+                                <i class="fa-solid fa-angles-right" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="fm-tags mx-1 d-xs-block d-sm-block d-lg-none">
+                                +
+                            </div>
+                            <div class="fm-tags mx-1 d-none d-lg-block">
+                                Boolean mobile app
+                            </div>
+                            <div class="fm-tags mx-1 d-none d-lg-block">
+                                Boolean web app
+                            </div>
+                            <div class="fm-tags mx-1 d-none d-lg-block">
+                                Boolean blog app
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 pb-3 px-2 text-start">
+                        <div>
+                            Studenti online negli ultimi 30 minuti
+                        </div>
+                        <h3>125</h3>
+                    </div>
+                    
+                </div>
             </div>
         </main>
 
@@ -106,4 +154,5 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

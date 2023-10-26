@@ -8,6 +8,11 @@
 /*typography*/
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.nav-l a{
+    color:white;
+    text-decoration: none;
 }
 /*typography*/
 /*header*/
@@ -38,8 +43,15 @@ header img{
     flex-direction: column;
     justify-content: space-between;
 }
-.main-nav{
+.jumbo{
     background-color: #1b72e8; 
+}
+.fm-tags{
+    background-color: #165bba;
+    border-radius: 25px;
+    font-size: 12px;
+    padding: 0 5px;
+    white-space:nowrap;
 }
 /*main*/
 /*responsive*/
